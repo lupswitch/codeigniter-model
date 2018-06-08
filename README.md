@@ -277,7 +277,7 @@ class My_model extends yidas\Model
 }
 ```
 
-> Timestamp would force manage value with the column(s) that has been set.
+> Timestamp would force write values with the columns that has been set. 
 
 ### Database Connection
 
