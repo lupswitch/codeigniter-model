@@ -277,6 +277,8 @@ class My_model extends yidas\Model
 }
 ```
 
+> Timestamp would force manage value with the column(s) that has been set.
+
 ### Database Connection
 
 By default, all models will use the default database connection `$this->db` configured for your application. If you would like to specify a different connection for the model, use the `$database` property:
