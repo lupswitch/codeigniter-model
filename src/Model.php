@@ -908,6 +908,8 @@ class Model extends \CI_Model
     /**
      * Format a date for timestamps
      *
+     * Timestamp would force manage value which the column(s) is set likes Yii2 Timestamp Behavior.
+     *
      * @param string Field name
      * @param array Attributes
      * @return array Addon $attributes of pointer
